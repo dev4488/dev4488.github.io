@@ -11,8 +11,13 @@ html, body, #wrapper, h1, #nav, #nav ul, #nav li {
 }
 
 body, th, td {
-	font-size: 30px;
+	font-size: 10px;
 }
+
+intro {
+	font-size: 20px;
+}
+
 
 img { border: 0; }
 
