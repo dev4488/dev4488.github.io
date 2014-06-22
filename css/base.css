@@ -1,0 +1,22 @@
+body {
+    padding-bottom: 40px;
+    margin:         10px;
+    text-align:     justify;
+}
+    
+#navigator {
+    position: fixed;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.publications > div {
+    font-size:  85%;
+    line-height: 140%;
+    padding:    6px;
+}
+.publications > div:nth-child(odd) {
+    background: #f0f0f0;
+}
