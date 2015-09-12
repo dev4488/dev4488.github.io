@@ -222,7 +222,6 @@
                     <dl class="dl-horizontal">
                     
                     </dl>
-                <p><a href="http://visiir.lip6.fr/" target="_blank"> VISIIR web demo</a> Food recognition system based on the work that I did at LIP-6, Paris.</p>
                 <p>More projects can be found on my <a href="http://github.com/coder-007/">GitHub profile</a>.</p>
                 </div>
             </div>
@@ -231,7 +230,7 @@
                 <div class="panel-heading"><h4>Data</h4></div>
                 <div class="panel-body">
                     <dl class="dl-horizontal">
-                    <p><a href = "http://webia.lip6.fr/~wangxin/" target="_blank"> UPMC-101 </a> Dataset of 101 food categories (~1000 images per category) that I created from Google image search results.</p>
+                    <p>Under Construction!!</p>
                       
                     </dl>
                 </div>
