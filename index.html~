@@ -140,6 +140,7 @@
                                 2015
                                 <div>
                                 <div>
+                                <a href="https://dev4488.github.io/slides/icme2015_food.pdf" target = "_blank"><span class="glyphicon glyphicon-list" title="slides"></span><span class="sr-only">slides</span></a> |
                                 
                                 <a href="https://dev4488.github.io/papers/icme2015_food.bib"><span class="glyphicon glyphicon-retweet" title="bib"></span><span class="sr-only">bib</span></a> |
                                 <a href= "http://webia.lip6.fr/~cord/Publications_files/CordCooking2015icme.pdf" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
@@ -210,7 +211,7 @@
                         <div style="font-size: 120%">
                             Lung Nodule Classification Using Deep Features in CT Images (Oral)
                         </div>
-                        <div class="text-muted">Kumar,D.,&nbsp; Alexander Wong&nbsp;and David Clausi</div>
+                        <div class="text-muted"><b>D. Kumar,&nbsp;</b> A. Wong&nbsp;and D. Clausi</div>
                         <div class="text-muted">
                             12th Conference on Computer and Robot Vision (CRV), Halifax, NS, June, 2015.
                         </div>
@@ -236,7 +237,7 @@
                         <div style="font-size: 120%">
                             Constructive Learning for Human-Robot Interaction
                         </div>
-                        <div class="text-muted">Singh A.,&nbsp;Karanam, S., and&nbsp;Kumar,D.</div>
+                        <div class="text-muted">Singh A.,&nbsp;Karanam, S., and&nbsp;<b>D.Kumar</b></div>
                         <div class="text-muted">
                             IEEE Potentials, Vol. 32, Issue: 4, pp(s): 13-19, Aug, 2013 
                         </div>
