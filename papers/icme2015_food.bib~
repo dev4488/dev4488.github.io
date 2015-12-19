@@ -1,0 +1,8 @@
+@inproceedings{kumar2015lung,
+  title={Lung nodule classification using deep features in ct images},
+  author={Kumar, Devinder and Wong, Alexander and Clausi, David A},
+  booktitle={Computer and Robot Vision (CRV), 2015 12th Conference on},
+  pages={133--138},
+  year={2015},
+  organization={IEEE}
+}
