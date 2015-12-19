@@ -84,23 +84,17 @@
                 <div class="panel-heading"><h4>Publications<small>  recent publications only, for full list please refer my CV</small></h4></div>
  
                 <div class="panel-body publications">
-                	
                 	<div>
                         <div style="float: right; text-align: right; margin-left: 6px">
                             <div> 
                                 2015
-                            
-                            
                                 <div>
+                                 <div>
                                 
                                 
                                 <a href= "http://arxiv.org/abs/1509.00117v1" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
                                 
-                                
-                                
                                 </div>
-                               
-                           
                                 
                                 </div>
                               
@@ -109,8 +103,27 @@
                         <div style="font-size: 120%">
                             Discovery Radiomics for Computed Tomography Cancer Detection
                         </div>
-                        <div class="text-muted"><b>D.Kumar,&nbsp;</b> M.J.Shafiee,&nbsp;A.G. Chung,&nbsp;F. Khalvati,&nbsp;M.A. Haider&nbsp;and A. Wong</div>
-                        <div class="text-muted"> arXiv 1509.00117v1, 2015 (submitted to TBME)  </div>
+                        <div class="text-muted">D.Kumar,&nbsp;</b> M.J.Shafiee,&nbsp;A.G. Chung,&nbsp;F. Khalvati,&nbsp;M.A. Haider&nbsp;and A. Wong</div>
+                        <div class="text-muted">
+                            arXiv 1509.00117v1, 2015 (submitted to TBME)
+                        </div>
+                        
+                    </div>
+                	<div>
+                        <div style="float: right; text-align: right; margin-left: 6px">
+                            <div> 
+                                2015                  
+                           		
+                                
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div style="font-size: 120%">
+                            
+                        </div>
+                        <div class="text-muted"><b></div>
+                        <div class="text-muted">   </div>
                       <div>
                         <div style="float: right; text-align: right; margin-left: 6px">
                             <div> 
