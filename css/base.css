@@ -4,16 +4,16 @@
  */
 
 :root {
-    --bg-color: #0d1117;
-    --bg-secondary: #161b22;
-    --text-primary: #e6edf3;
-    --text-secondary: #8b949e;
-    --accent-color: #58a6ff;
-    --accent-hover: #3182ce;
-    --gradient-start: #00f2fe;
-    --gradient-end: #4facfe;
-    --glass-bg: rgba(22, 27, 34, 0.65);
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --bg-color: #f8fafc;
+    --bg-secondary: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --accent-color: #2563eb;
+    --accent-hover: #1d4ed8;
+    --gradient-start: #3b82f6;
+    --gradient-end: #8b5cf6;
+    --glass-bg: rgba(255, 255, 255, 0.85);
+    --glass-border: rgba(15, 23, 42, 0.1);
     --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     --max-width: 1000px;
 }
@@ -113,7 +113,7 @@ main {
 }
 
 .glass-card {
-    background: rgba(255, 255, 255, 0.03);
+    background: rgba(15, 23, 42, 0.03);
     border: 1px solid var(--glass-border);
     border-radius: 12px;
     padding: 1.5rem;
@@ -122,8 +122,8 @@ main {
 
 .hover-lift:hover {
     transform: translateY(-5px);
-    border-color: rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(15, 23, 42, 0.15);
+    background: rgba(15, 23, 42, 0.05);
 }
 
 .gradient-text {
@@ -156,7 +156,7 @@ main {
     border-radius: 50%;
     object-fit: contain;
     border: 2px solid var(--glass-border);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     background-color: #fff;
 }
 
@@ -212,7 +212,7 @@ main {
     opacity: 0.9;
     color: #fff;
     transform: translateY(-2px);
-    box-shadow: 0 5px 15px rgba(0, 242, 254, 0.3);
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
 }
 
 .btn-outline {
@@ -222,8 +222,8 @@ main {
 }
 
 .btn-outline:hover {
-    background: rgba(255, 255, 255, 0.05);
-    border-color: rgba(255, 255, 255, 0.2);
+    background: rgba(15, 23, 42, 0.05);
+    border-color: rgba(15, 23, 42, 0.2);
     color: var(--text-primary);
 }
 
