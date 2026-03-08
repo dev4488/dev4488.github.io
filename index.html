@@ -1,384 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-        <meta http-equiv="X-XSS-Protection" content="1; mode=block">
-        <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
-        <meta http-equiv="X-Content-Type-Options" content="nosniff">
-	    <title>Devinder Kumar </title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-        <link rel="stylesheet"      href="css/base.css">
-        <link rel="shortcut icon"   href="favicon.ico">
-    </head>
+    <title>Devinder Kumar | Head of ML Systems Engineering</title>
+    <meta name="description" content="Portfolio of Devinder Kumar, Head of ML Systems Engineering at TD Bank (Layer6) and former Stanford Postdoctoral Fellow. Expertise in Deep Learning & Explainable AI.">
 
-    <body data-spy="scroll" data-target="#navigator">
-        <div class="container col-sm-2 well well-sm" id="navigator">
-            <nav role="navigation">
-                <ul class="nav nav-stacked">
-                    <li class="active"><a href="#home">Home</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#teaching">News</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#pubs">Publications</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#resources">Software / data</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#hacks">Press</a></li>
-                </ul>
-            </nav>
+    <!-- OpenGraph/SEO -->
+    <meta property="og:title" content="Devinder Kumar | AI & ML Systems Executive">
+    <meta property="og:description" content="Portfolio of Devinder Kumar, Head of ML Systems Engineering at TD Bank (Layer6).">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#about" class="nav-logo">DK</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#press">Press / Media</a></li>
+            </ul>
         </div>
-        <div class="container col-sm-8 col-sm-offset-2">
-            <div class="panel panel-default main" id="home">
-                <div class="panel-heading"><h4><b>Devinder Kumar </b><small>Email: devinder"DOT"kumar"AT"td"DOT"com</small></h4><p> <small> Head, ML Systems Engineering, TD bank (Layer6)</small> <br/> <small> Ex-Postdoc Stanford University </small> <br/></p></div>
-		
-                <div class="panel-body">
-                    <img class="pull-right img-thumbnail" style="margin-left: 15px;" src="me_car.jpg" alt="me & car">
-                    <p>
-                    	Current head of ML Systems Engineering at TD Bank. ML engineering & research leader specializing in building & operationalizing ML models in complex production environments. Looking to build/scale machine learning team(s) & operations to deliver business value. Before this I was a Postdoctoral Fellow at Stanford University. My research centered around Deep Learning and its application in Computer Vision, multi sensor fusion & Explainable AI. 
- 			</p>
-                     <p>
-			I obtained my PhD at <a
-                        href="https://vip.uwaterloo.ca/" target="_blank">VIP lab</a> - University of Waterloo and 
-			<a href="https://www.uoguelph.ca/~gwtaylor/" target="_blank">Machine Learning Research Group</a> - University of Guelph 
-			where I was supervised by <a href="https://www.eng.uwaterloo.ca/~a28wong/" target="_blank">Dr. Alexander Wong</a> (UWaterloo/ Canada research chair, Medical Imaging & AI) and <a href="https://www.uoguelph.ca/~gwtaylor/" target="_blank">Dr. Graham Taylor</a> (UGuelph/<a href="https://vectorinstitute.ai" target="_blank"> Academic Direction, Vector Inst.</a>/  Canada research chair, ML).
-			During my PhD I also developed various PoC projects for different industry clients via UWaterloo partnership & independent projects.
-                        
+    </nav>
 
-			<p>
-			In past, I was the Lead AI Scientist for <a href="https://www.nextcanada.com/next-ai" target="_blank">NextAI</a>, a world class AI accelerator program of NEXT Canada based in Toronto, Canada. There I lead a team of AI scientists that provided AI R&D advice to various startups.
-			</p>
-                    <p>
-                        In distant past, I was a deep learning research intern at Philips research (HQ), a research engineer in <a
-                        href="https://www.lip6.fr/?LANG=en" target="_blank">LIP-6</a> - UPMC-Sorbonne University, Paris.
-                        There I had great time working with <a href="https://webia.lip6.fr/~cord/" target="_blank">Prof. Matthieu Cord</a> and
-                        <a href="https://webia.lip6.fr/~thomen/" target="_blank">Asst. Prof Nicolas Thome</a> 
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero-section glass-panel">
+            <div class="hero-content">
+                <div class="profile-wrapper">
+                    <img src="me_car.jpg" alt="Devinder Kumar" class="profile-img">
+                </div>
+                <div class="hero-text">
+                    <h1>Devinder Kumar</h1>
+                    <h2 class="gradient-text">Head, ML Systems Engineering</h2>
+                    <h3>TD Bank (Layer6) &middot; Ex-Stanford Postdoc</h3>
+                    <p class="bio">
+                        I am an AI engineering and research leader specializing in building and operationalizing machine learning models in complex production environments. I focus on scaling ML teams, infrastructure, and operations to deliver tangible business value at enterprise scale.
                     </p>
-			
-		     <p>
-                        For a full history, here's my <a href="cv-devinder_kumar.pdf" target="_blank">  Curriculum-Vit&aelig</a>, <a href="https://scholar.google.ca/citations?user=sLVsbB0AAAAJ&hl=en" target="_blank">  Google Scholar</a> and <a href="https://ca.linkedin.com/in/d22kumar" target="_blank">LinkedIn</a>.
-                    </p>	
-			
+                    <p class="bio">
+                        Previously, I was a Postdoctoral Fellow at Stanford University. I completed my PhD in Explainable AI under Dr. Alexander Wong (VIP Lab, UWaterloo) and Dr. Graham Taylor (Machine Learning Research Group, UGuelph).
+                    </p>
+                    <div class="social-links">
+                        <a href="cv-devinder_kumar.pdf" target="_blank" class="btn btn-primary">Curriculum Vitae</a>
+                        <a href="https://www.linkedin.com/in/kumardevinder/" target="_blank" class="btn btn-outline">LinkedIn</a>
+                        <a href="https://scholar.google.ca/citations?user=sLVsbB0AAAAJ&hl=en" target="_blank" class="btn btn-outline">Google Scholar</a>
+                        <a href="https://github.com/dev4488/" target="_blank" class="btn btn-outline">GitHub</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="panel panel-default" id="teaching">
-                <div class="panel-heading"><h4>News</h4></div>
-                <div class="panel-body">
-                    <dl class="dl-horizontal">
-			    <dt>Mar 2020</dt>
-                             <dd> I am now a Postdoc Fellow at <a href="https://med.stanford.edu/scsnl.html" target="_blank">SCSNL</a>, School of Medicine, Stanford University. </dd>
-			    <dt>Dec 2019</dt>
-                             <dd> Paper accepted at IEEE Winter Conference on Applications of Computer Vision (WACV), 2020 </dd>
-			     <dt>Aug 2019</dt>
-                             <dd> I gave an invited talk at <a href="https://sportlogiq.com" target="_blank">SPORTLOGIQ</a>, Montreal, Quebec on "Tips and Tricks for Traninig Neural Networks Effectively" on 26th Aug</dd>
-			    <dt>Feb 2019</dt>
-                             <dd> I will be giving keynote speech at the annual symposium of the Project Management Insitute (PMI) south western ontario chapter on April 25th.</dd>
-			    <dt>Feb 2019</dt>
-                             <dd> Gave invited talk on state of explainable AI at Element-AI and Bank of Montreal (BMO) in Toronto, Canada </dd>
-			    <dt>Dec 2018</dt>
-                             <dd> Awarded President Graduate Scholarship (PGS) at University of Waterloo </dd>
-			    <dt>Dec 2018</dt>
-                             <dd> Awarded International Ontario Graduate Scholarship (OGS) (1/5 awards at UWaterloo, 1/1 in Engg Dept.) </dd>
-			    <dt>Aug 2018</dt>
-			    <dd> I am chairing the Poster Session at Toronto Machine Learning Summit (<b>TMLS</b>), 2018. Submission of poster ideas: <a href="https://docs.google.com/forms/d/e/1FAIpQLSeS5IAp5qie62PognS06nBZABbBGguzFnuMSI2aXTh4hKrxOA/viewform" target="_blank">link</a></dd>
-			    <dt>May 2018</dt>
-			    <dd> Paper accepted at <b>Nature Communications</b> (IF:13.092) on interpretable crytsal lattice symmetry classification.</dd>
-			    <dt>Dec 2017</dt>
-                         <dd> Awarded President Graduate Scholarship (PGS) at University of Waterloo </dd>
-			     <dt>Dec 2017</dt>
-                         <dd> Awarded International Ontario Graduate Scholarship (OGS) (1/5 awards at UWaterloo) </dd>
-			     <dt>Dec 2017</dt>
-                         <dd> Our paper won <b>Best paper Award</b> at 31st Neural Information Processing Systems (<a href="https://sites.google.com/view/timl-nips2017/home" target="_blank">NIPS</a>) Transparent and interpretable Machine Learning in Safety Critical Environments Workshop, 2017 </dd>
-			    <dt>Oct 2017</dt>
-                         <dd> I will be speaking at the Toronto Machine Learning Summit
- <a href="https://torontomachinelearning.com/" target="_blank">(TOML)</a> 2017 about my X-AI research</dd>
-			    <dt>Sept 2017</dt>
-                         <dd> I will be speaking on the panel "Math education for an AI world" at 
- <a href="https://www.fields.utoronto.ca/activities/17-18/meforum-sep" target="_blank">Fields Insitute</a> on Sept 30th</dd>
-			      <dt>Aug 2017</dt>
-                         <dd> I am now the managing editor for Journal of Computational Vision and Imaging Systems (<a href="https://www.jcvis.ml/" target="_blank">JCVIS</a>)</dd>
-			     <dt>Jun 2017</dt>
-                         <dd> I am giving an invited Keynote Speech at <a href="https://ai-toronto.com" target="_blank">AI-Toronto, 2017</a> Conference on 21st June, 2017 </dd>
-			     <dt>May 2017</dt>
-                        <dd> <a href= "https://arxiv.org/abs/1704.04133" target="_blank">"CLEAR visualization"</a> paper accepted at CVPR Workshop (<a href="https://chalearnlap.cvc.uab.es/workshop/22/description/" target="_blank">CVPR-W</a>) on Explainable Computer Vision </dd>
-			    <dt>Apr 2017</dt>
-                        <dd>Accepted at <a href="https://mila.umontreal.ca/en/cours/deep-learning-summer-school-2017/" target="_blank">DL & RL Summer School, 2017</a> at MILA, UMontreal with CIFAR scholarship.</dd>
-                    	
-			    <dt>Mar 2017</dt>
-                        <dd>Paper accepted at 14th International Conference on Image Analysis and Recognition (<a href="https://www.aimiconf.org/iciar17/" target="_blank">ICIAR, 2017</a>) </dd>
-                    	
-			    <dt>Feb 2017</dt>
-                        <dd> I am joining this year's <a href="https://www.thenext36.ca/next-ai" target="_blank">NextAI</a> program as an AI scientist in residence.</dd>
-			    <dt>Dec 2016</dt>
-                        <dd> I will be giving an invited talk at the theory department at <a href="https://th.fhi-berlin.mpg.de/site/" target="_blank">Fritz Haber Institute of the Max Planck Society</a> on 08 Dec, 2016 </dd>
-                        	<dt>Nov 2016</dt>
-                        <dd>Paper accepted at 30th Neural Information Processing Systems Machine learning for healthcare Workshop (<a href="https://www.nipsml4hc.ws/discussion/callforpapers" target="_blank">NIPS MLH, 2016</a>) </dd>
-                    	<dt>Jun 2016</dt>
-                        <dd>I will be joining <a href="https://www.philips.com/a-w/research/locations/eindhoven.html" target="_blank">Philips Research (HQ)</a> as a deep learning intern at Eindhoven, NL where I will be working with the data science and medical oncology solutions departments.</dd>
-                    	<dt>May 2016</dt>
-                        <dd>I gave an invited talk at <a href="https://www.gustaveroussy.fr/en" target="_blank">Gustave Roussy</a> cancer research institute, Paris, France</dd>
-                    	<dt>Nov 2015</dt>
-                        <dd>Paper accepted at 29th Neural Information Processing Systems (<a href="https://sites.google.com/site/nipsmlhc15/" target="_blank">NIPS</a>) Machine Learning for Healthcare Workshop ,2015 </dd>
-                    	
-               
-                        
-                        
-                    </dl>
+        <!-- Experience -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Career Milestones</h2>
+            <div class="timeline">
+                <div class="timeline-item glass-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">Current</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Head, ML Systems Engineering</h3>
+                        <h4 class="company-name">TD Bank (Layer6)</h4>
+                        <p>Leading machine learning product engineering and systems at Layer 6, focusing on MLOps, model deployment, and scalable enterprise intelligence.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">Past</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Postdoctoral Fellow</h3>
+                        <h4 class="company-name">Stanford University</h4>
+                        <p>Research at the Stanford Cognitive & Systems Neuroscience Laboratory (SCSNL), School of Medicine.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">Past</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Lead AI Scientist</h3>
+                        <h4 class="company-name">NextAI (NEXT Canada)</h4>
+                        <p>Led a team of AI scientists advising world-class startups on AI R&D and product development.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item glass-card">
+                    <div class="timeline-meta">
+                        <span class="timeline-date">Past</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Deep Learning & Research Engineering</h3>
+                        <h4 class="company-name">Philips Research (HQ) & UPMC-Sorbonne (LIP-6)</h4>
+                        <p>Research and engineering roles specializing in deep learning applications, medical oncology solutions, and data science.</p>
+                    </div>
                 </div>
             </div>
-		
-		<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        </section>
 
-  ga('create', 'UA-46434583-1', 'auto');
-  ga('send', 'pageview');
+        <!-- Publications -->
+        <section id="publications" class="section">
+            <h2 class="section-title">Selected Publications</h2>
+            <div class="grid-container">
+                <div class="pub-card glass-card hover-lift">
+                    <span class="pub-year">2017 &middot; CVPR Workshop (Oral)</span>
+                    <h3>Explaining the Unexplained: A CLEAR Approach to Understanding Deep Neural Networks</h3>
+                    <p class="pub-authors">D. Kumar, A. Wong, G. W. Taylor</p>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/1704.04133" target="_blank">PDF</a>
+                        <a href="https://dev4488.github.io/slides/devinder_kumar_CLEAR_map_ecvw_cvprw_2017.pdf" target="_blank">Slides</a>
+                    </div>
+                </div>
 
-</script>
-	   <div class="panel panel-default" id="pubs">
-                <div class="panel-heading"><h4>Publications<small>  selected publications only, for full list please refer my CV</small></h4></div>
- 		 <div class="panel-body publications">
-                	<div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2017
-                                <div>
-                                 <div>
-                                 <a href="https://dev4488.github.io/slides/devinder_kumar_CLEAR_map_ecvw_cvprw_2017.pdf" target = "_blank"><span class="glyphicon glyphicon-list" title="slides"></span><span class="sr-only">slides</span></a> |
-                                <a href= "https://arxiv.org/abs/1704.04133" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                </div>
-                                
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Explaining the Unexplained: A CLass-Enhanced Attentive Response (CLEAR) Approach to Understanding Deep Neural Networks
-                        </div>
-                        <div class="text-muted"><b>D.Kumar,&nbsp;</b>A. Wong,&nbsp; and G. W. Taylor</div>
-                        <div class="text-muted">
-				Computer Vision and Pattern Recognition <b>(CVPR)</b> Workshop  <i>Oral</i>, 2017
-                        </div>
-                        
+                <div class="pub-card glass-card hover-lift">
+                    <span class="pub-year">2016 &middot; NIPS Workshop</span>
+                    <h3>Understanding Anatomy Classification Using Visualization</h3>
+                    <p class="pub-authors">D. Kumar, V. Menkovski</p>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/1611.06284" target="_blank">PDF</a>
                     </div>
+                </div>
 
-                	<div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2016
-                                <div>
-                                 <div>
-                                
-                                <a href="https://dev4488.github.io/slides/nips_mlh_2016_poster_ver2.pdf" target = "_blank"><span class="glyphicon glyphicon-list" title="slides"></span><span class="sr-only">slides</span></a> |
-                                <a href= "https://arxiv.org/abs/1611.06284" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                </div>
-                                
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Understanding Anatomy Classification Using Visualization
-                        </div>
-                        <div class="text-muted"><b>D.Kumar,&nbsp;</b>and V.Menkovski</div>
-                        <div class="text-muted">
-                            30th NIPS Machine Learning for Health (NIPS-MLH) Workshop, 2016
-                        </div>
-                        
+                <div class="pub-card glass-card hover-lift">
+                    <span class="pub-year">2015 &middot; NIPS Workshop</span>
+                    <h3>Discovery Radiomics via StochasticNet Sequencers for Cancer Detection</h3>
+                    <p class="pub-authors">M.J. Shafiee, A.G. Chung, D. Kumar, F. Khalvati, M.A. Haider, A. Wong</p>
+                    <div class="pub-links">
+                        <a href="https://arxiv.org/abs/1511.03361" target="_blank">PDF</a>
                     </div>
-                	
-                      <div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2015
-                                <div>
-                                <div>
-                                
-                                <a href="https://dev4488.github.io/slides/StochasticNet_NIPS_MLHC_2015.pdf" target = "_blank"><span class="glyphicon glyphicon-list" title="slides"></span><span class="sr-only">slides</span></a> |
-                                <a href= "https://arxiv.org/abs/1511.03361" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                </div>
-                                
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Discovery Radiomics via StochasticNet Sequencers for Cancer Detection
-                        </div>
-                        <div class="text-muted">M.J.Shafiee,&nbsp;A.G. Chung,&nbsp;<b>D. Kumar,</b>,&nbsp;F. Khalvati,&nbsp;M.A. Haider&nbsp;and A. Wong</div>
-                        <div class="text-muted">
-                            29th NIPS Machine Learning for Healthcare (NIPS-MLH) Workshop, 2015
-                        </div>
-                    </div>
-                   <div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2015
-                                <div>
-                                <div>
-                                <a href="https://dev4488.github.io/slides/icme2015_food.pdf" target = "_blank"><span class="glyphicon glyphicon-list" title="slides"></span><span class="sr-only">slides</span></a> |
-                                
-                                <a href="https://dev4488.github.io/papers/icme2015_food.bib"><span class="glyphicon glyphicon-retweet" title="bib"></span><span class="sr-only">bib</span></a> |
-                                <a href= "https://webia.lip6.fr/~cord/pdfs/publis/CordCooking2015icme.pdf" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                </div>
-                                
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Recipe recognition with large multimodal food dataset
-                        </div>
-                        <div class="text-muted">X.Wang,&nbsp;<b>D.Kumar,&nbsp;</b> N.Thome, &nbsp; M.Cord, &nbsp;and F.Precioso</div>
-                        <div class="text-muted">
-                            7th Workshop on Multimediafor Cooking and Eating Activities (CEA) in conjuction with ICME, July 2015.
-                        </div>
-                        
-                    </div>
-            
-                   <div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2015
-                                <div>
-                                  <div>
-                                
-                                   <a href="https://dev4488.github.io/papers/fsr2015_taming.bib"><span class="glyphicon glyphicon-retweet" title="bib"></span><span class="sr-only">bib</span></a> |
-                                   <a href= "https://fsr.utias.utoronto.ca/submissions/FSR_2015_submission_40.pdf" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                  </div>
-                                
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Taming the North: Multi-Camera Parallel Tracking and Mapping in Snow-Laden Environments
-                        </div>
-                        <div class="text-muted">A.Das,&nbsp;<b>D.Kumar,&nbsp;</b> A.E.Bably &nbsp;and S. Waslander</div>
-                        <div class="text-muted">
-                            In proceedings Field and Service Robotics (FSR), June, 2015.
-                        </div>
-                        
-                    </div>
-                
-                    <div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2015
-                                <div>
-                                     <div>
-                                
-                                <a href="https://dev4488.github.io/slides/crv_2015.pdf" target = "_blank"><span class="glyphicon glyphicon-list" title="slides"></span><span class="sr-only">slides</span></a> |
-                                <a href="https://dev4488.github.io/papers/crv2015_lung.bib"><span class="glyphicon glyphicon-retweet" title="bib"></span><span class="sr-only">bib</span></a> |
-                                
-                                
-                                <a href= "https://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7158331" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                </div>
-                           
-      
-                                
-                                </div>
-                              
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Lung Nodule Classification Using Deep Features in CT Images (Oral)
-                        </div>
-                        <div class="text-muted"><b>D. Kumar,&nbsp;</b> A. Wong&nbsp;and D. Clausi</div>
-                        <div class="text-muted">
-                            12th Conference on Computer and Robot Vision (CRV), Halifax, NS, June, 2015.
-                        </div>
-                        
-                    </div>
-                
-                    <div>
-                        <div style="float: right; text-align: right; margin-left: 6px">
-                            <div> 
-                                2013 
-                                <div>
-                                
-                                
-                                <a href="https://dev4488.github.io/papers/ieeepot_2013.bib"><span class="glyphicon glyphicon-retweet" title="bib"></span><span class="sr-only">bib</span></a> |
-                                <a href="https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6565461" target="_blank"><span class="glyphicon glyphicon-file" title="pdf"></span><span class="sr-only">pdf</span></a>
-                                
-                                
-                                
-                                </div>
-                                <span class="label label-info" style="text-align: right">Best Paper Award</span>
-                            </div>
-                        </div>
-                        <div style="font-size: 120%">
-                            Constructive Learning for Human-Robot Interaction
-                        </div>
-                        <div class="text-muted">A.Singh,&nbsp; S.Karanam, and&nbsp;<b>D.Kumar</b></div>
-                        <div class="text-muted">
-                            IEEE Potentials, Vol. 32, Issue: 4, pp(s): 13-19, Aug, 2013 
-                        </div>
-                        
-                    </div>
-                
-                    
-                        
-            </div>
+                </div>
 
-            <div class="panel panel-default" id="resources">
-                <div class="panel-heading"><h4>Software</h4></div>
-                <div class="panel-body">
-                    <dl class="dl-horizontal">
-                    
-                    </dl>
-                <p><a href="https://visiir.lip6.fr/" target="_blank"> VISIIR web demo</a> Food recognition system based on the work that I did at LIP-6, Paris.</p>
-                <p>More projects can be found on my <a href="https://github.com/dev4488/" target="_blank">GitHub profile</a>.</p>
+                <div class="pub-card glass-card hover-lift">
+                    <span class="pub-year">2015 &middot; ICME CEA Workshop</span>
+                    <h3>Recipe recognition with large multimodal food dataset</h3>
+                    <p class="pub-authors">X. Wang, D. Kumar, N. Thome, M. Cord, F. Precioso</p>
+                    <div class="pub-links">
+                        <a href="https://webia.lip6.fr/~cord/pdfs/publis/CordCooking2015icme.pdf" target="_blank">PDF</a>
+                    </div>
+                </div>
+
+                <div class="pub-card glass-card hover-lift">
+                    <span class="pub-year">2015 &middot; CRV Conference (Oral)</span>
+                    <h3>Lung Nodule Classification Using Deep Features in CT Images</h3>
+                    <p class="pub-authors">D. Kumar, A. Wong, D. Clausi</p>
+                    <div class="pub-links">
+                        <a href="https://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7158331" target="_blank">PDF</a>
+                    </div>
+                </div>
+
+                <div class="pub-card glass-card hover-lift">
+                    <span class="pub-year">2013 &middot; IEEE Potentials (Best Paper)</span>
+                    <h3>Constructive Learning for Human-Robot Interaction</h3>
+                    <p class="pub-authors">A. Singh, S. Karanam, D. Kumar</p>
+                    <div class="pub-links">
+                        <a href="https://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6565461" target="_blank">PDF</a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="panel panel-default">
-                <div class="panel-heading"><h4>Data</h4></div>
-                <div class="panel-body">
-                    <dl class="dl-horizontal">
-                    <p><a href = "https://visiir.lip6.fr/data/public/UPMC_Food101.tar.gz"> UPMC-101 </a> Dataset of 101 food categories (~1000 images per category) that I created from Google image search results.</p>
-                      
-                    </dl>
-                </div>
+        <!-- Press Section -->
+        <section id="press" class="section">
+            <h2 class="section-title">Media & Impact</h2>
+            <div class="grid-container press-grid">
+                <a href="https://motherboard.vice.com/en_us/article/j5j5n8/this-researcher-wants-to-open-the-black-box-of-financial-ai?utm_source=mbfb" target="_blank" class="press-card glass-card hover-lift">
+                    <h4>VICE Motherboard</h4>
+                    <p>"This Researcher Wants to Open the 'Black Box' of Financial AI"</p>
+                </a>
+                <a href="https://www.canadianunderwriter.ca/insurance/new-university-waterloo-software-make-easier-adopt-trust-ai-systems-set-insurance-premiums-1004121660/" target="_blank" class="press-card glass-card hover-lift">
+                    <h4>Canadian Underwriter</h4>
+                    <p>"New software could make it easier to adopt and trust AI systems..."</p>
+                </a>
+                <a href="https://www.technology.org/2017/10/07/scientists-developed-software-to-make-artificial-intelligence-systems-more-trustworthy/" target="_blank" class="press-card glass-card hover-lift">
+                    <h4>Technology.org</h4>
+                    <p>"Scientists developed software to make artificial intelligence more trustworthy"</p>
+                </a>
+                <a href="https://uwaterloo.ca/stories/reading-minds-deep-learning-ai-systems" target="_blank" class="press-card glass-card hover-lift">
+                    <h4>Waterloo Stories</h4>
+                    <p>"Reading the minds of deep learning AI systems"</p>
+                </a>
             </div>
+        </section>
+    </main>
 
-            <div class="panel panel-default" id="hacks">
-                <div class="panel-heading"><h4>Media Coverage</h4></div>
-                <div class="panel-body">
-                    <dl class="dl-horizontal">
-		      <dt><a href = "https://motherboard.vice.com/en_us/article/j5j5n8/this-researcher-wants-to-open-the-black-box-of-financial-ai?utm_source=mbfb" target="_blank">VICE's Motherboad</a></dt> 
-			    <dd>"This Researcher Wants to Open the 'Black Box' of Financial AI", Oct 2017 </dd>
-		      <dt><a href = "https://www.canadianunderwriter.ca/insurance/new-university-waterloo-software-make-easier-adopt-trust-ai-systems-set-insurance-premiums-1004121660/" target="_blank">Canadian Underwriter </a></dt> 
-			    <dd>"New software could make it easier to “adopt and trust” AI systems that set insurance premiums", Oct 2017 </dd>
-	              <dt><a href = "https://www.technology.org/2017/10/07/scientists-developed-software-to-make-artificial-intelligence-systems-more-trustworthy/" target="_blank">Technology.org</a></dt> 
-			    <dd>"Scientists developed software to make artificial intelligence systems more trustworthy", Oct 2017 </dd>
-		      <dt><a href = "https://www.exchangemagazine.com/2017/week41/Tuesday/17101005.htm" target="_blank">Exchange Magazine</a></dt>
-			    <dd>"Waterloo research paves the way for use of complex AI in the financial sector", Oct 2017 </dd>    
-                      <dt><a href = "https://uwaterloo.ca/news/news/waterloo-research-paves-way-use-complex-ai-financial-sector" target="_blank">Waterloo Media Release</a></dt> 
-			    <dd>"Waterloo research paves the way for use of complex AI in the financial sector", Oct 2017 </dd>
-		      <dt><a href = "https://www.investmentexecutive.com/-/building-trust-in-ai?hootPostID=eccf05c8b38a9928ab8094ed90ba32bc" target="_blank">Investment Executive Magazine</a></dt> 
-			    <dd>"Building trust in AI", Oct 2017 </dd>	    
-                      <dt><a href = "https://engineerthefuture.ca/deep-learning-ai-systems/" target="_blank">Engineer The Future</a></dt> 
-			    <dd>"Reading the minds of deep learning AI systems", Sept 2017 </dd>
-            	      <dt><a href = "https://uwaterloo.ca/stories/reading-minds-deep-learning-ai-systems" target="_blank">Waterloo Stories</a></dt> 
-			    <dd>"Reading the minds of deep learning AI systems", June 2017 </dd>
-            
-		   
-		</div>
+    <footer>
+        <p>&copy; 2026 Devinder Kumar. Head of ML Systems Engineering.</p>
+    </footer>
 
-        </div>
-    </body>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-
+    <!-- Analytics & Scripts -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-46434583-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+    <script>
+        // Smooth scroll for nav
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        
+        // Add scrolled class to navbar
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
 </html>
