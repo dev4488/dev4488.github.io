@@ -283,7 +283,25 @@ main {
     color: var(--text-secondary);
     font-size: 1rem;
     font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.company-container {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
     margin-bottom: 0.8rem;
+}
+
+.company-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    border-radius: 4px;
+    background: #fff;
+    padding: 2px;
+    border: 1px solid var(--glass-border);
+    flex-shrink: 0;
 }
 
 /* Grids */
