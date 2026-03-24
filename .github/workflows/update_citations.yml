@@ -1,0 +1,36 @@
+name: Update Google Scholar Citations
+
+on:
+  schedule:
+    # Run every Saturday at 23:55 GMT (approximately Saturday night)
+    - cron: '55 23 * * 6'
+  workflow_dispatch:
+    # Allow manual trigger from the GitHub Actions tab
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Fetch and update citations
+        run: python scripts/fetch_citations.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Automated: Update Google Scholar citations" || echo "No changes to commit"
+          git push
