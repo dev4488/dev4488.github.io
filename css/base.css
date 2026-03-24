@@ -10,11 +10,12 @@
     --text-secondary: #475569;
     --accent-color: #2563eb;
     --accent-hover: #1d4ed8;
-    --gradient-start: #3b82f6;
-    --gradient-end: #8b5cf6;
+    --gradient-start: #2563eb;
+    --gradient-end: #4f46e5;
     --glass-bg: rgba(255, 255, 255, 0.85);
-    --glass-border: rgba(15, 23, 42, 0.1);
+    --glass-border: rgba(15, 23, 42, 0.08);
     --font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
     --max-width: 1000px;
 }
 
@@ -26,6 +27,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 body {
@@ -501,4 +503,114 @@ footer {
     margin-top: 0.5rem;
     display: none;
     text-align: left;
+}
+
+/* Executive Portfolio Enhancements */
+.serif-heading {
+    font-family: var(--font-serif);
+    letter-spacing: -0.5px;
+}
+
+.executive-summary {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--text-primary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+.impact-list {
+    list-style: none;
+    margin-top: 0.8rem;
+    padding-left: 0;
+}
+
+.impact-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.6rem;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.impact-list li::before {
+    content: "▹";
+    position: absolute;
+    left: 0;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    top: -2px;
+}
+
+.competencies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.comp-card {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+}
+
+.comp-icon {
+    font-size: 2.5rem;
+    color: var(--accent-color);
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, rgba(88, 166, 255, 0.1), transparent);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(88, 166, 255, 0.1);
+}
+
+.comp-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-primary);
+}
+
+.comp-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+/* Scroll Animations */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Refined Light Mode Adjustments */
+.glass-panel {
+    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.15);
+}
+
+.metrics-bar {
+    box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+}
+
+.profile-img {
+    border-color: var(--glass-border);
+    background-color: var(--bg-secondary);
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.glass-card:hover {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: rgba(15, 23, 42, 0.2);
+    box-shadow: 0 10px 25px rgba(15, 23, 42, 0.05);
 }
