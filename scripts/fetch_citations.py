@@ -65,4 +65,6 @@ if __name__ == "__main__":
         print(f"Fetched metrics: {metrics}")
         update_index_html(metrics)
     else:
-        print("Failed to fetch metrics.")
+        print("Failed to fetch metrics. Exiting with error so GitHub Actions reports failure.")
+        import sys
+        sys.exit(1)
